@@ -11,7 +11,7 @@ namespace UmbracoExtensions
 		private readonly IRuntimeMinifier _runtimeMinifier;
 		private readonly IRuntimeState _runtimeState;
 
-		public CreateBundlesNotificationHandler(IRuntimeMinifier runtimeMinifier, IRuntimeState runtimeState)
+		public Bundling(IRuntimeMinifier runtimeMinifier, IRuntimeState runtimeState)
 		{
 			_runtimeMinifier = runtimeMinifier;
 			_runtimeState = runtimeState;
