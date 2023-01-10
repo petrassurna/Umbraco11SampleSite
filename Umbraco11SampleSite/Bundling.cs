@@ -6,7 +6,7 @@ using Umbraco.Cms.Core;
 
 namespace UmbracoExtensions
 {
-	public class CreateBundlesNotificationHandler : INotificationHandler<UmbracoApplicationStartingNotification>
+	public class Bundling : INotificationHandler<UmbracoApplicationStartingNotification>
 	{
 		private readonly IRuntimeMinifier _runtimeMinifier;
 		private readonly IRuntimeState _runtimeState;

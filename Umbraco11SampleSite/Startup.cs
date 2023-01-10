@@ -36,7 +36,7 @@ namespace Umbraco11SampleSite
                 .AddBackOffice()
                 .AddWebsite()
                 .AddComposers()
-                .AddNotificationHandler<UmbracoApplicationStartingNotification, CreateBundlesNotificationHandler>()
+                .AddNotificationHandler<UmbracoApplicationStartingNotification, Bundling>()
                 .Build();
         }
 
